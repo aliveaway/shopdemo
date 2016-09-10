@@ -1,0 +1,50 @@
+/* 公共样式 */
+*{
+	margin: 0;
+	padding: 0;
+}
+.body{
+	width: 960px;
+	border: 1px solid red;
+	font-size: 12px;
+	color: #333;
+	margin: 0 auto;
+}
+.clear{
+	display: block;
+	overflow: hidden;
+}
+ul{
+	list-style: none;
+}
+a:link{
+	color: #333
+}
+a:visited{
+	color: #333
+}
+a:hover{
+	color: red
+}
+a:active{
+	color: red
+}
+a{
+	text-decoration: none;
+}
+
+
+/*  */
+.top ul li{
+	float: left;
+	margin-left: 8px;
+}
+.top div{
+	float: left;
+}
+.top ul{
+	float: right;
+}
+.top{
+	line-height: 34px;
+}
